@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>configureLocator(newX:newY)</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>02-SpheroPong.playgroundchapter/08-PlaySpheroPong.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Jugar Sphero Pong</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Establece las coordenadas actuales (x, y) del ubicador. Llama `configureLocator(newX: 0, newY: 0)` para restablecer la posición del ubicador.</string>
+				<key>Title</key>
+				<string>configureLocator(newX:newY)</string>
+			</dict>
+		</dict>
+		<key>locator sensor</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>02-SpheroPong.playgroundchapter/06-KeepingScore.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Mantener el marcador</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>La posición (x, y) y velocidad. La posición es el desplazamiento desde el origen del ubicador, medido en centímetros. La velocidad se mide en centímetros por segundo. Almacenados en la propiedad `locator` de `SensorData`.</string>
+				<key>Title</key>
+				<string>sensor del ubicador</string>
+			</dict>
+		</dict>
+		<key>roll(heading:speed:)</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>01-Basics.playgroundchapter/02-Roll.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Rodar</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hace rodar a Sphero con la orientación y velocidad dados. La orientación varía entre 0° y 360°, y el rango de velocidad va de 0 a 255.</string>
+				<key>Title</key>
+				<string>roll(heading:speed:)</string>
+			</dict>
+		</dict>
+		<key>setMainLed(color:)</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>01-Basics.playgroundchapter/03-Aim.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Dirigir</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Cambia el color de las luces LED principales. Transmite un objeto `UIColor` como argumento. Puedes apagar las luces transmitiendo `.black`.</string>
+				<key>Title</key>
+				<string>setMainLed(color:)</string>
+			</dict>
+		</dict>
+		<key>stopRoll()</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>01-Basics.playgroundchapter/02-Roll.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Rodar</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Establece la velocidad objetivo en 0, lo que detiene a Sphero.</string>
+				<key>Title</key>
+				<string>stopRoll()</string>
+			</dict>
+		</dict>
+		<key>wait(for:)</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>01-Basics.playgroundchapter/02-Roll.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Rodar</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Espera varios segundos antes de ejecutar la siguiente secuencia de código.</string>
+				<key>Title</key>
+				<string>wait(for:)</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

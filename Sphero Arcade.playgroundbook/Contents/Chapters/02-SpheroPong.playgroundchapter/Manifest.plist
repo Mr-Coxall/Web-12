@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Pages</key>
+	<array>
+		<string>01-SpheroPong.cutscenepage</string>
+		<string>02-OriginalPong.playgroundpage</string>
+		<string>03-RealWorldSetup.playgroundpage</string>
+		<string>04-BounceAngle.playgroundpage</string>
+		<string>05-BackAndForth.playgroundpage</string>
+		<string>06-KeepingScore.playgroundpage</string>
+		<string>07-WinningTheGame.playgroundpage</string>
+		<string>08-PlaySpheroPong.playgroundpage</string>
+		<string>09-Congratulations.cutscenepage</string>
+	</array>
+	<key>Name</key>
+	<string>Sphero Pong</string>
+</dict>
+</plist>
